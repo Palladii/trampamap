@@ -7,7 +7,6 @@
 </head>
 
 <body class="page__body">
-
 <header class="page-header">
   <a class="logo page-header__logo">
     <img class="logo__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="Логотип Погнали?">
@@ -21,8 +20,7 @@
       <img class="main-nav__tel-img" src="https://via.placeholder.com/" width="40px" height="40px" alt="Наш телефон">
     </a>
     <a href="mailto:oxana3@mail.ru subject=Напишите нам">
-      <img class="main-nav__mail-img" src="https://via.placeholder.com/" width="40px" height="40px"
-           alt="Наша электронная почта">
+      <img class="main-nav__mail-img" src="https://via.placeholder.com/" width="40px" height="40px" alt="Наша электронная почта">
     </a>
     <a class="main-nav__login js-login" href="#">Авторизация</a>
   </nav>
@@ -61,15 +59,13 @@
 
   <section class="about-service">
     <h2 class="about-service__title">О сервисе</h2>
-    <p>Любое путешествие веселее с попутчиками, которые на одной волне с тобой! Делитесь своими идеями путешествий и
-      черпайте вдохновение в чужих.</p>
+    <p>Любое путешествие веселее с попутчиками, которые на одной волне с тобой! Делитесь своими идеями путешествий и черпайте вдохновение в чужих.</p>
     <p>А если найдете кого-то близкого по духу — скорее зовите в совместный трип!</p>
   </section>
 
   <section class="direction">
     <h2 class="direction__title">Направления</h2>
-    <p>Мы не продаем туры и ничего не рекламируем. Люди сами пишут о странах, куда хотели бы отправиться и чем можно там
-      заняться.</p>
+    <p>Мы не продаем туры и ничего не рекламируем. Люди сами пишут о странах, куда хотели бы отправиться и чем можно там заняться.</p>
     <ul class="direction__list country-list">
       <li class="country-list__item">
         <img class="country-list__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="Tаиланд">
@@ -93,69 +89,144 @@
     <a class="button direction__button" href="#">Показать все</a>
   </section>
 
-  <section class="travelers">
-    <h2 class="travelers__title">Попутчики</h2>
-    <p>Все мы индивидуальны и у каждого свой взгляд на идеальный отдых. Одному нужен пляж и коктейль, а другому маршрут
-      для хайкинга.</p>
-    <b class="travelers__tagline">Теперь можно легко найти единомышленников!</b>
-    <ul class="travelers__list user-list">
-      <li class="user-list__item">
-        <img class="user-list__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="Таня Фирсова">
-        <h3 class="user-list__name">Таня Фирсова</h3>
-        <p class="user-list__hash-tag">#ЗОЖ #ПП #Фитнес #пляж #авокадо #смузи</p>
-      </li>
-      <li class="user-list__item">
-        <img class="user-list__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="Петя Демин">
-        <h3 class="user-list__name">Петя Демин</h3>
-        <p class="user-list__hash-tag">#бургер #бар #футбол #концерт #крафт</p>
-      </li>
-    </ul>
-    <a class="button travelers__button" href="#">Показать всех</a>
+  <section class="user-cards">
+    <div class="travelers">
+      <h2 class="travelers__title">Попутчики</h2>
+      <p>Все мы индивидуальны и у каждого свой взгляд на идеальный отдых. Одному нужен пляж и коктейль, а другому маршрут для хайкинга.</p>
+      <b class="travelers__tagline">Теперь можно легко найти единомышленников!</b>
+    </div>
+
+    <div class="user-card">
+      <img class="user-card__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="Таня Фирсова">
+      <span class="user-card__level-img" aria-label="уровень">99 level</span>
+      <div class="user-card_wrapper">
+        <h4 class="visually-hidden">хочет посетить:</h4>
+        <ul class="wishlist__list">
+          <li class="wishlist__item">
+            <img class="wishlist__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="флаг США">
+          </li>
+          <li class="wishlist__item">
+            <img class="wishlist__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="флаг Австралии">
+          </li>
+          <li class="wishlist__item">
+            <img class="wishlist__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="флаг Доминиканы">
+          </li>
+        </ul>
+      </div>
+      <h3 class="user-card__name">Таня Фирсова</h3>
+      <p class="user-card__hash-tag">#ЗОЖ #ПП #Фитнес #пляж #авокадо #смузи</p>
+      <div class="user-card_wrapper">
+        <h4 class="user-card__transport">транспорт:</h4>
+        <ul class="transport__list">
+          <li class="transport__list">
+            <img class="transport__img transport__img--plane transport__img--plane--active" src="https://via.placeholder.com/" width="40px" height="40px" alt="самолет">
+          </li>
+          <li class="transport__list">
+            <img class="transport__img transport__img--bus" src="https://via.placeholder.com/" width="40px" height="40px" alt="автобус">
+          </li>
+          <li class="transport__list">
+            <img class="transport__img transport__img--bicycle transport__img--bicycle--active" src="https://via.placeholder.com/" width="40px" height="40px" alt="велосипед">
+          </li>
+          <li class="transport__list">
+            <img class="transport__img transport__img--on-foot" src="https://via.placeholder.com/" width="40px" height="40px" alt="пешком">
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="user-card">
+      <img class="user-card__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="Петя Демин">
+      <span class="user-card__level-img" aria-label="уровень">80 level</span>
+      <div class="user-card_wrapper">
+        <h4 class="visually-hidden">хочет посетить:</h4>
+        <ul class="wishlist__list">
+          <li class="wishlist__item">
+            <img class="wishlist__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="флаг Бельгии">
+          </li>
+          <li class="wishlist__item">
+            <img class="wishlist__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="флаг Чехии">
+          </li>
+        </ul>
+      </div>
+      <h3 class="user-card__name">Петя Демин</h3>
+      <p class="user-card__hash-tag">#бургер #бар #футбол #концерт #крафт</p>
+      <div class="user-card_wrapper">
+        <h4 class="user-card__transport">транспорт:</h4>
+        <ul class="transport__list">
+          <li class="transport__list">
+            <img class="transport__img transport__img--plane transport__img--plane--active" src="https://via.placeholder.com/" width="40px" height="40px" alt="самолет">
+          </li>
+          <li class="transport__list">
+            <img class="transport__img transport__img--bus transport__img--bus--active" src="https://via.placeholder.com/" width="40px" height="40px" alt="автобус">
+          </li>
+          <li class="transport__list">
+            <img class="transport__img transport__img--bicycle" src="https://via.placeholder.com/" width="40px" height="40px" alt="велосипед">
+          </li>
+          <li class="transport__list">
+            <img class="transport__img transport__img--on-foot transport__img--on-foot--active" src="https://via.placeholder.com/" width="40px" height="40px" alt="пешком">
+          </li>
+        </ul>
+        <a class="button travelers__button" href="#">Показать всех</a>
+      </div>
+    </div>
   </section>
 
-  <section class="business-rates">
-    <ul class="business-rates__list rate-list">
-      <li class="rate-list__item">Реклама у блоггера 300 000 руб./пост</li>
-      <li class="rate-list__item">Накрутка подписчиков от 1 руб./шт.</li>
-      <li class="rate-list__item">Лайки от ботов от 20 коп./лайк</li>
-      <li class="rate-list__item">Ваш продакт-плейсмент Индивидуально</li>
+  <section class="rates">
+    <h2 class="rates__class">Добавьте свой профиль</h2>
+    <ul class="rates__list">
+      <li class="rates-list__item">
+        <h4>Базовое размещение Бесплатно</h4>
+        <span>1</span>
+        <span>Бесплатно</span>
+      </li>
+      <li class="rates-list__item">
+        <h4>Вывод на первых позициях</h4>
+        <span>2</span>
+        <span>99 руб./мес</span>
+      </li>
+      <li class="rates-list__item">
+        <h4>Кастомный цвет карточки</h4>
+        <span>3</span>
+        <span>59 руб./мес</span>
+      </li>
     </ul>
-    <button class="button business-rates__button" type="button">Закрыть окно</button>
+    <a class="rates__link" href="#">Закрыть окно</a>
   </section>
 
   /*Пропущены два красных блока*/
 
-</main>
-<footer class="page-footer">
-  <a class="logo page-footer__logo">
-    <img class="logo__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="Логотип Погнали?">
-  </a>
-  <div class="page-footer__social social">
-    <ul class="social__list">
-      <li class="social__item">
-        <a class="social__link social__link--facebook" href="https://www.facebook.com">
-          <img class="social__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="Фейсбук">
-        </a>
-      </li>
-      <li class="social__item">
-        <a class="social__link social__link--vkontakte" href="https://vk.com">
-          <img class="social__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="Вконтакте">
-        </a>
-      </li>
-      aria-label="Мы в Вконтакте"
-      <li class="social__item">
-        <a class="social__link social__link--instagram" href="https://www.instagram.com">
-          <img class="social__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="Инстаграмм">
-        </a>
-      </li>
-    </ul>
-  </div>
-  <div class="page-footer__copyright copyright">
-    <b class="copyright__text">Разработано:</b>
-    <a class="copyright__link" href="https://htmlacademy.ru">
-      <img class="copyright__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="Сайт HTML Academy">
+  </main>
+
+  <footer class="page-footer">
+    <a class="logo page-footer__logo">
+      <img class="logo__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="Логотип Погнали?">
     </a>
-  </div>
-</footer>
+    <div class="page-footer__social social">
+      <ul class="social__list">
+        <li class="social__item">
+          <a class="social__link social__link--facebook" href="https://www.facebook.com">
+            <img class="social__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="Фейсбук">
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--vkontakte" href="https://vk.com">
+            <img class="social__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="Вконтакте">
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--instagram" href="https://www.instagram.com">
+            <img class="social__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="Инстаграмм">
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="page-footer__copyright copyright">
+      <b class="copyright__text">Разработано:</b>
+      <a class="copyright__link" href="https://htmlacademy.ru">
+        <img class="copyright__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="Сайт HTML Academy">
+      </a>
+    </div>
+  </footer>
 </body>
 </html>
+
