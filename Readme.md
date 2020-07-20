@@ -1,7 +1,7 @@
 # Личный проект «Погнали» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Oksana Palladii](https://up.htmlacademy.ru/adaptive/20/user/476339).
-* Наставник: `Неизвестно`.
+* Наставник: [Ксения Григорьева] (https://htmlacademy.ru/profile/arctic_pie).
 
 ---
 
