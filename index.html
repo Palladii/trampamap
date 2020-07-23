@@ -13,25 +13,70 @@
     <span class="visually-hidden">Логотип Погнали?</span>
   </a>
   <button class="header__toggle" type="button">
-    <img class="header__toggle__img" src="https://via.placeholder.com/" width="40" height="40" alt="Открыть меню">
-    <span class="visually-hidden">Открыть меню</span>
+    <img class="header__toggle__img" src="https://via.placeholder.com/" width="40" height="40"
+         alt="Открыть или закрыть меню">
+    <span class="visually-hidden">Открыть или закрыть меню</span>
   </button>
-  <h1 class="header__title">В путешествие с крутыми попутчиками!</h1>
-  <nav class="main-nav">
-    <a class="main-nav__tel" href="tel:+749511111111" aria-label="Телефон +749511111111">
-      <img class="main-nav__tel-img" src="https://via.placeholder.com/" width="40" height="40" alt="Наш телефон">
-      <span class="visually-hidden">Наш телефон</span>
-    </a>
-    <a class="main-nav__mail" href="mailto:go@gmail.com" aria-label="Электронный адрес go@gmail.com">
-      <img class="main-nav__mail-img" src="https://via.placeholder.com/" width="40" height="40"
-           alt="Наша электронная почта">
-      <span class="visually-hidden">Наша электронная почта</span>
-    </a>
-    <a class="main-nav__login js-login" href="#">Авторизация</a>
-  </nav>
+
+  <section class="menu-nav">
+    <ul class="site-nav">
+      <li class="site-nav__item">
+        <a class="site-nav-link" href="#">О сервисе</a>
+      </li>
+      <li class="site-nav__item">
+        <a class="site-nav-link" href="form.html">Направления</a>
+      </li>
+      <li class="site-nav__item">
+        <a class="site-nav-link" href="catalog.html">Попутчики</a>
+      </li>
+    </ul>
+    <ul class="user-nav__list user-nav__list--menu-nav">
+      <li class="user-nav__item">
+        <a class="user-nav__login js-login" href="#">Авторизация</a>
+      </li>
+      <li class="user-nav__item">
+        <a class="user-nav__list__tel" href="tel:+749511111111" aria-label="Телефон +749511111111">
+          <img class="user-nav__list__tel-img" src="https://via.placeholder.com/" width="40" height="40"
+               alt="Наш телефон">
+          <span class="visually-hidden">Наш телефон</span>
+        </a>
+      </li>
+      <li class="user-nav__item">
+        <a class="user-nav__list__mail" href="mailto:go@gmail.com" aria-label="Электронный адрес go@gmail.com">
+          <img class="user-nav__mail-img" src="https://via.placeholder.com/" width="40" height="40"
+               alt="Наша электронная почта">
+          <span class="visually-hidden">Наша электронная почта</span>
+        </a>
+      </li>
+    </ul>
+  </section>
 </header>
 
 <main>
+  <section class="main-nav">
+    <h1 class="main-nav__title">В путешествие с крутыми попутчиками!</h1>
+    <nav class="user-nav">
+      <ul class="user-nav__list user-nav__list--main-nav">
+        <li class="user-nav__item">
+          <a class="user-nav__login js-login" href="#">Авторизация</a>
+        </li>
+        <li class="user-nav__item">
+          <a class="user-nav__list__tel" href="tel:+749511111111" aria-label="Телефон +749511111111">
+            <img class="user-nav__list__tel-img" src="https://via.placeholder.com/" width="40" height="40"
+                 alt="Наш телефон">
+            <span class="visually-hidden">Наш телефон</span>
+          </a>
+        </li>
+        <li class="user-nav__item">
+          <a class="user-nav__list__mail" href="mailto:go@gmail.com" aria-label="Электронный адрес go@gmail.com">
+            <img class="user-nav__mail-img" src="https://via.placeholder.com/" width="40" height="40"
+                 alt="Наша электронная почта">
+            <span class="visually-hidden">Наша электронная почта</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </section>
   <section class="blockquote">
     <h2 class="visually-hidden">Отзывы</h2>
     <blockquote class="blockquote__review">
@@ -115,11 +160,13 @@
             <span class="visually-hidden">флаг США</span>
           </li>
           <li class="user-card__item">
-            <img class="user-card__list-img" src="https://via.placeholder.com/" width="40" height="40" alt="флаг Австралии">
+            <img class="user-card__list-img" src="https://via.placeholder.com/" width="40" height="40"
+                 alt="флаг Австралии">
             <span class="visually-hidden">флаг Австралии</span>
           </li>
           <li class="user-card__item">
-            <img class="user-card__list-img" src="https://via.placeholder.com/" width="40" height="40" alt="флаг Доминиканы">
+            <img class="user-card__list-img" src="https://via.placeholder.com/" width="40" height="40"
+                 alt="флаг Доминиканы">
             <span class="visually-hidden">флаг Доминиканы</span>
           </li>
         </ul>
@@ -160,7 +207,8 @@
         <h4 class="visually-hidden">хочет посетить:</h4>
         <ul class="user-card__list">
           <li class="user-card__item">
-            <img class="user-card__list-img" src="https://via.placeholder.com/" width="40" height="40" alt="флаг Бельгии">
+            <img class="user-card__list-img" src="https://via.placeholder.com/" width="40" height="40"
+                 alt="флаг Бельгии">
             <span class="visually-hidden">Флаг Бельгии</span>
           </li>
           <li class="user-card__item">
@@ -219,7 +267,7 @@
         <span>59 руб./мес</span>
       </li>
     </ul>
-    <a class="rates__link" href="#">Закрыть окно</a>
+    <a class="rates__link" href="#">Показать тарифы для бизнеса</a>
   </section>
 
   /*Пропущены два красных блока*/
