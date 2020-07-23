@@ -1,176 +1,193 @@
 <!DOCTYPE html>
-<html class="form-page" lang="ru">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
   <title>Погнали - направления</title>
 </head>
 
-<body class="page__body">
+<body class="page catalog-page">
 <header class="page-header">
-  <a class="logo page-header__logo">
-    <img class="logo__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="Логотип Погнали?">
+  <a class="logo logo__header" href="index.html">
+    <img class="logo__img" src="https://via.placeholder.com/" width="40" height="40" alt="Логотип Погнали?">
   </a>
   <button class="page-header__toggle" type="button">
-    <img class="page-header__button--img" src="https://via.placeholder.com/" width="40px" height="40px" alt="Открыть меню">
+    <img class="page-header__toggle__img" src="https://via.placeholder.com/" width="40" height="40" alt="Открыть меню">
   </button>
-  <h1 class="page-header__title">Направления</h1>
+  <h1 class="page-header__title">Попутчики</h1>
 </header>
 
-<main class="page-main">
+<main>
 
   /*Пропущен красный блок*/
 
   <div class="user-cards">
     <div class="user-card">
       <h2 class="visually-hidden">Карточка пользователя</h2>
-      <img class="user-card__avatar" src="https://via.placeholder.com/" width="40px" height="40px" alt="Аватарка">
+      <img class="user-card__avatar" src="https://via.placeholder.com/" width="40" height="40" alt="Аватарка">
       <h3 class="user-card__name">Таня Фирсова</h3>
       <span class="user-card__remoteness" aria-label="Удаленность">1,5 м</span>
       <p class="user-card__hash-tag">#ЗОЖ #ПП #Фитнес #пляж #авокадо #смузи</p>
-      <div class="user-card_wrapper"></div>
-      <h4 class="user-card__wishlist">хочет посетить:</h4>
-      <ul class="wishlist__list">
-        <li class="wishlist__item">Шри-ланка</li>
-        <li class="wishlist__item">Тайланд</li>
-        <li class="wishlist__item">Сейшелы</li>
-      </ul>
+      <div class="user-card__wrapper">
+        <h4 class="user-card__wishlist">хочет посетить:</h4>
+        <ul class="wishlist">
+          <li class="wishlist__item">Шри-ланка</li>
+          <li class="wishlist__item">Тайланд</li>
+          <li class="wishlist__item">Сейшелы</li>
+        </ul>
+      </div>
+      <div class="user-card__wrapper">
+        <h4 class="user-card__transport">транспорт:</h4>
+        <ul class="transport-list">
+          <li class="transport-list__item">
+            <img class="transport-list__img transport-list__img--plane transport-list__img--plane--active"
+                 src="https://via.placeholder.com/" width="40" height="40" alt="самолет">
+          </li>
+          <li class="transport-list__item">
+            <img class="transport-list__img transport-list__img--bus" src="https://via.placeholder.com/" width="40"
+                 height="40" alt="автобус">
+          </li>
+          <li class="transport-list__item">
+            <img class="transport-list__img transport-list__img--bicycle" src="https://via.placeholder.com/" width="40"
+                 height="40" alt="велосипед">
+          </li>
+          <li class="transport-list__item">
+            <img class="transport-list__img transport-list__img--on-foot" src="https://via.placeholder.com/" width="40"
+                 height="40" alt="пешком">
+          </li>
+        </ul>
+      </div>
+      <div class="user-card__wrapper">
+        <h4 class="user-card__level">левел:</h4>
+        <span class="user-card__level-img" aria-label="уровень">99</span>
+      </div>
+      <button class="button user-card__button" type="button">Позвать!</button>
     </div>
-    <div class="user-card_wrapper">
-      <h4 class="user-card__transport">транспорт:</h4>
-      <ul class="transport__list">
-        <li class="transport__list">
-          <img class="transport__img transport__img--plane transport__img--plane--active" src="https://via.placeholder.com/" width="40px" height="40px" alt="самолет">
-        </li>
-        <li class="transport__list">
-          <img class="transport__img transport__img--bus" src="https://via.placeholder.com/" width="40px" height="40px" alt="автобус">
-        </li>
-        <li class="transport__list">
-          <img class="transport__img transport__img--bicycle" src="https://via.placeholder.com/" width="40px" height="40px" alt="велосипед">
-        </li>
-        <li class="transport__list">
-          <img class="transport__img transport__img--on-foot" src="https://via.placeholder.com/" width="40px" height="40px" alt="пешком">
-        </li>
-      </ul>
-    </div>
-    <div class="user-card_wrapper">
-      <h4 class="user-card__level">левел:</h4>
-      <span class="user-card__level-img" aria-label="уровень">99</span>
-    </div>
-    <button class="button user-card__button" type="button">Позвать!</button>
-  </div>
 
-  <div class="user-card">
-    <h2 class="visually-hidden">Карточка пользователя</h2>
-    <img class="user-card__avatar" src="https://via.placeholder.com/" width="40px" height="40px" alt="Аватарка">
-    <h3 class="user-card__name">Петя Демин</h3>
-    <span class="user-card__remoteness" aria-label="Удаленность">1500</span>
-    <p class="user-card__hash-tag">#бургер #бар #футбол #концерт #крафт</p>
-    <div class="user-card_wrapper">
-      <h4 class="user-card__wishlist">хочет посетить:</h4>
-      <ul class="wishlist__list">
-        <li class="wishlist__item">Бельгия</li>
-        <li class="wishlist__item">Чехия</li>
-      </ul>
+    <div class="user-card">
+      <h2 class="visually-hidden">Карточка пользователя</h2>
+      <img class="user-card__avatar" src="https://via.placeholder.com/" width="40" height="40" alt="Аватарка">
+      <h3 class="user-card__name">Петя Демин</h3>
+      <span class="user-card__remoteness" aria-label="Удаленность">1500</span>
+      <p class="user-card__hash-tag">#бургер #бар #футбол #концерт #крафт</p>
+      <div class="user-card__wrapper">
+        <h4 class="user-card__wishlist">хочет посетить:</h4>
+        <ul class="wishlist">
+          <li class="wishlist__item">Бельгия</li>
+          <li class="wishlist__item">Чехия</li>
+        </ul>
+      </div>
+      <div class="user-card_wrapper">
+        <h4 class="user-card__transport">транспорт:</h4>
+        <ul class="transport-list">
+          <li class="transport-list__item">
+            <img class="transport-list__img transport-list__img--plane transport-list__img--plane--active"
+                 src="https://via.placeholder.com/" width="40" height="40" alt="самолет">
+          </li>
+          <li class="transport-list__item">
+            <img class="transport-list__img transport-list__img--bus transport-list__img--bus--active"
+                 src="https://via.placeholder.com/" width="40" height="40" alt="автобус">
+          </li>
+          <li class="transport-list__item">
+            <img class="transport-list__img transport-list__img--bicycle" src="https://via.placeholder.com/" width="40"
+                 height="40" alt="велосипед">
+          </li>
+          <li class="transport-list__item">
+            <img class="transport-list__img transport-list__img--on-foot transport-list__img--on-foot--active"
+                 src="https://via.placeholder.com/" width="40" height="40" alt="пешком">
+          </li>
+        </ul>
+      </div>
+      <div class="user-card__wrapper">
+        <h4 class="user-card__level">левел:</h4>
+        <span class="user-card__level-img" aria-label="уровень">80</span>
+      </div>
+      <button class="button user-card__button" type="button">Позвать!</button>
     </div>
-    <div class="user-card_wrapper">
-      <h4 class="user-card__transport">транспорт:</h4>
-      <ul class="transport__list">
-        <li class="transport__list">
-          <img class="transport__img transport__img--plane transport__img--plane--active" src="https://via.placeholder.com/" width="40px" height="40px" alt="самолет">
-        </li>
-        <li class="transport__list">
-          <img class="transport__img transport__img--bus transport__img--bus--active" src="https://via.placeholder.com/" width="40px" height="40px" alt="автобус">
-        </li>
-        <li class="transport__list">
-          <img class="transport__img transport__img--bicycle" src="https://via.placeholder.com/" width="40px" height="40px" alt="велосипед">
-        </li>
-        <li class="transport__list">
-          <img class="transport__img transport__img--on-foot transport__img--on-foot--active" src="https://via.placeholder.com/" width="40px" height="40px" alt="пешком">
-        </li>
-      </ul>
-    </div>
-    <div class="user-card_wrapper">
-      <h4 class="user-card__level">левел:</h4>
-      <span class="user-card__level-img" aria-label="уровень">80</span>
-    </div>
-    <button class="button user-card__button" type="button">Позвать!</button>
-  </div>
 
-  <div class="user-card">
-    <h2 class="visually-hidden">Карточка пользователя</h2>
-    <img class="user-card__avatar" src="https://via.placeholder.com/" width="40px" height="40px" alt="Аватарка">
-    <h3 class="user-card__name">Марк Смолов</h3>
-    <span class="user-card__remoteness" aria-label="Удаленность">1,5 м</span>
-    <p class="user-card__hash-tag">#рэп #тату #хайпбист #кроссовки #суприм</p>
-    <div class="user-card_wrapper">
-      <h4 class="user-card__wishlist">хочет посетить:</h4>
-      <ul class="wishlist__list">
-        <li class="wishlist__item">США</li>
-        <li class="wishlist__item">Австраалия</li>
-        <li class="wishlist__item">Доминика</li>
-      </ul>
+    <div class="user-card">
+      <h2 class="visually-hidden">Карточка пользователя</h2>
+      <img class="user-card__avatar" src="https://via.placeholder.com/" width="40" height="40" alt="Аватарка">
+      <h3 class="user-card__name">Марк Смолов</h3>
+      <span class="user-card__remoteness" aria-label="Удаленность">1,5 м</span>
+      <p class="user-card__hash-tag">#рэп #тату #хайпбист #кроссовки #суприм</p>
+      <div class="user-card_wrapper">
+        <h4 class="user-card__wishlist">хочет посетить:</h4>
+        <ul class="wishlist">
+          <li class="wishlist__item">США</li>
+          <li class="wishlist__item">Австраалия</li>
+          <li class="wishlist__item">Доминика</li>
+        </ul>
+      </div>
+      <div class="user-card__wrapper">
+        <h4 class="user-card__transport">транспорт:</h4>
+        <ul class="transport-list">
+          <li class="transport-list__item">
+            <img class="transport-list__img transport-list__img--plane transport-list__img--plane--active"
+                 src="https://via.placeholder.com/" width="40" height="40" alt="самолет">
+          </li>
+          <li class="transport-list__item">
+            <img class="transport-list__img transport-list__img--bus" src="https://via.placeholder.com/" width="40"
+                 height="40" alt="автобус">
+          </li>
+          <li class="transport-list__item">
+            <img class="transport-list__img transport-list__img--bicycle transport-list__img--bicycle--active"
+                 src="https://via.placeholder.com/" width="40" height="40" alt="велосипед">
+          </li>
+          <li class="transport-list__item">
+            <img class="transport-list__img transport-list__img--on-foot" src="https://via.placeholder.com/" width="40"
+                 height="40" alt="пешком">
+          </li>
+        </ul>
+      </div>
+      <div class="user-card__wrapper">
+        <h4 class="user-card__level">левел:</h4>
+        <span class="user-card__level-img" aria-label="уровень">25</span>
+      </div>
+      <button class="button user-card__button" type="button">Позвать!</button>
     </div>
-    <div class="user-card_wrapper">
-      <h4 class="user-card__transport">транспорт:</h4>
-      <ul class="transport__list">
-        <li class="transport__list">
-          <img class="transport__img transport__img--plane transport__img--plane--active" src="https://via.placeholder.com/" width="40px" height="40px" alt="самолет">
-        </li>
-        <li class="transport__list">
-          <img class="transport__img transport__img--bus" src="https://via.placeholder.com/" width="40px" height="40px" alt="автобус">
-        </li>
-        <li class="transport__list">
-          <img class="transport__img transport__img--bicycle transport__img--bicycle--active" src="https://via.placeholder.com/" width="40px" height="40px" alt="велосипед">
-        </li>
-        <li class="transport__list">
-          <img class="transport__img transport__img--on-foot" src="https://via.placeholder.com/" width="40px" height="40px" alt="пешком">
-        </li>
-      </ul>
-    </div>
-    <div class="user-card_wrapper">
-      <h4 class="user-card__level">левел:</h4>
-      <span class="user-card__level-img" aria-label="уровень">25</span>
-    </div>
-    <button class="button user-card__button" type="button">Позвать!</button>
-  </div>
 
-  <div class="user-card">
-    <h2 class="visually-hidden">Карточка пользователя</h2>
-    <img class="user-card__avatar" src="https://via.placeholder.com/" width="40px" height="40px" alt="Аватарка">
-    <h3 class="user-card__name">Лариса Роговая</h3>
-    <span class="user-card__remoteness" aria-label="Удаленность">1,5 м</span>
-    <p class="user-card__hash-tag">#рэп #тату #хайпбист #кроссовки #суприм</p>
-    <div class="user-card_wrapper">
-      <h4 class="user-card__wishlist">хочет посетить:</h4>
-      <ul class="wishlist__list">
-        <li class="wishlist__item">США</li>
-        <li class="wishlist__item">Австралия</li>
-        <li class="wishlist__item">Доминика</li>
-      </ul>
+    <div class="user-card">
+      <h2 class="visually-hidden">Карточка пользователя</h2>
+      <img class="user-card__avatar" src="https://via.placeholder.com/" width="40" height="40" alt="Аватарка">
+      <h3 class="user-card__name">Лариса Роговая</h3>
+      <span class="user-card__remoteness" aria-label="Удаленность">1,5 м</span>
+      <p class="user-card__hash-tag">#рэп #тату #хайпбист #кроссовки #суприм</p>
+      <div class="user-card_wrapper">
+        <h4 class="user-card__wishlist">хочет посетить:</h4>
+        <ul class="wishlist">
+          <li class="wishlist__item">США</li>
+          <li class="wishlist__item">Австралия</li>
+          <li class="wishlist__item">Доминика</li>
+        </ul>
+      </div>
+      <div class="user-card__wrapper">
+        <h4 class="user-card__transport">транспорт:</h4>
+        <ul class="transport-list">
+          <li class="transport-list__item">
+            <img class="transport-list__img transport-list__img--plane transport-list__img--plane--active"
+                 src="https://via.placeholder.com/" width="40" height="40" alt="самолет">
+          </li>
+          <li class="transport-list__item">
+            <img class="transport-list__img transport-list__img--bus" src="https://via.placeholder.com/" width="40"
+                 height="40" alt="автобус">
+          </li>
+          <li class="transport-list__item">
+            <img class="transport-list__img transport-list__img--bicycle transport-list__img--bicycle--active"
+                 src="https://via.placeholder.com/" width="40" height="40" alt="велосипед">
+          </li>
+          <li class="transport-list__item">
+            <img class="transport-list__img transport-list__img--on-foot" src="https://via.placeholder.com/" width="40"
+                 height="40" alt="пешком">
+          </li>
+        </ul>
+      </div>
+      <div class="user-card__wrapper">
+        <h4 class="user-card__level">левел:</h4>
+        <span class="user-card__level-img" aria-label="уровень">50</span>
+      </div>
+      <button class="button user-card__button" type="button">Позвать!</button>
     </div>
-    <div class="user-card_wrapper">
-      <h4 class="user-card__transport">транспорт:</h4>
-      <ul class="transport__list">
-        <li class="transport__list">
-          <img class="transport__img transport__img--plane transport__img--plane--active" src="https://via.placeholder.com/" width="40px" height="40px" alt="самолет">
-        </li>
-        <li class="transport__list">
-          <img class="transport__img transport__img--bus" src="https://via.placeholder.com/" width="40px" height="40px" alt="автобус">
-        </li>
-        <li class="transport__list">
-          <img class="transport__img transport__img--bicycle transport__img--bicycle--active" src="https://via.placeholder.com/" width="40px" height="40px" alt="велосипед">
-        </li>
-        <li class="transport__list">
-          <img class="transport__img transport__img--on-foot" src="https://via.placeholder.com/" width="40px" height="40px" alt="пешком">
-        </li>
-      </ul>
-    </div>
-    <div class="user-card_wrapper">
-      <h4 class="user-card__level">левел:</h4>
-      <span class="user-card__level-img" aria-label="уровень">50</span>
-    </div>
-    <button class="button user-card__button" type="button">Позвать!</button>
 
     <a class="user-cards__link" href="#">Показать еще</a>
 
@@ -182,32 +199,32 @@
 </main>
 
 <footer class="page-footer">
-  <a class="logo page-footer__logo">
-    <img class="logo__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="Логотип Погнали?">
+  <a class="logo logo--footer" href="index.html">
+    <img class="logo__img" src="https://via.placeholder.com/" width="40" height="40" alt="Логотип Погнали?">
   </a>
   <div class="page-footer__social social">
     <ul class="social__list">
       <li class="social__item">
         <a class="social__link social__link--facebook" href="https://www.facebook.com">
-          <img class="social__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="Фейсбук">
+          <img class="social__img" src="https://via.placeholder.com/" width="40" height="40" alt="Фейсбук">
         </a>
       </li>
       <li class="social__item">
         <a class="social__link social__link--vkontakte" href="https://vk.com">
-          <img class="social__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="Вконтакте">
+          <img class="social__img" src="https://via.placeholder.com/" width="40" height="40" alt="Вконтакте">
         </a>
       </li>
       <li class="social__item">
         <a class="social__link social__link--instagram" href="https://www.instagram.com">
-          <img class="social__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="Инстаграмм">
+          <img class="social__img" src="https://via.placeholder.com/" width="40" height="40" alt="Инстаграмм">
         </a>
       </li>
     </ul>
   </div>
   <div class="page-footer__copyright copyright">
     <b class="copyright__text">Разработано:</b>
-    <a class="copyright__link" href="https://htmlacademy.ru">
-      <img class="copyright__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="Сайт HTML Academy">
+    <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
+      <img class="copyright__img" src="https://via.placeholder.com/" width="40" height="40" alt="Сайт HTML Academy">
     </a>
   </div>
 </footer>

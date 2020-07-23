@@ -1,26 +1,27 @@
 <!DOCTYPE html>
-<html class="page" lang="ru">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
   <title>Погнали - главная страница</title>
 </head>
 
-<body class="page__body">
+<body class="page">
 <header class="page-header">
-  <a class="logo page-header__logo">
-    <img class="logo__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="Логотип Погнали?">
+  <a class="logo logo--header">
+    <img class="logo__img" src="https://via.placeholder.com/" width="40" height="40" alt="Логотип Погнали?">
   </a>
   <button class="page-header__toggle" type="button">
-    <img class="page-header__button--img" src="https://via.placeholder.com/" width="40px" height="40px" alt="Открыть меню">
+    <img class="page-header__toggle__img" src="https://via.placeholder.com/" width="40" height="40" alt="Открыть меню">
   </button>
   <h1 class="page-header__title">В путешествие с крутыми попутчиками!</h1>
   <nav class="main-nav">
-    <a class="main-nav__tel-link" href="tel:+749511111111">
-      <img class="main-nav__tel-img" src="https://via.placeholder.com/" width="40px" height="40px" alt="Наш телефон">
+    <a class="main-nav__tel" href="tel:+749511111111">
+      <img class="main-nav__tel-img" src="https://via.placeholder.com/" width="40" height="40" alt="Наш телефон">
     </a>
-    <a href="mailto:oxana3@mail.ru subject=Напишите нам">
-      <img class="main-nav__mail-img" src="https://via.placeholder.com/" width="40px" height="40px" alt="Наша электронная почта">
+    <a class="main-nav__mail" href="mailto:oxana3@mail.ru subject=Напишите нам">
+      <img class="main-nav__mail-img" src="https://via.placeholder.com/" width="40" height="40"
+           alt="Наша электронная почта">
     </a>
     <a class="main-nav__login js-login" href="#">Авторизация</a>
   </nav>
@@ -59,29 +60,31 @@
 
   <section class="about-service">
     <h2 class="about-service__title">О сервисе</h2>
-    <p>Любое путешествие веселее с попутчиками, которые на одной волне с тобой! Делитесь своими идеями путешествий и черпайте вдохновение в чужих.</p>
-    <p>А если найдете кого-то близкого по духу — скорее зовите в совместный трип!</p>
+    <p class="about-service__text">Любое путешествие веселее с попутчиками, которые на одной волне с тобой! Делитесь
+      своими идеями путешествий и черпайте вдохновение в чужих.</p>
+    <p class="about-service__text">А если найдете кого-то близкого по духу — скорее зовите в совместный трип!</p>
   </section>
 
   <section class="direction">
     <h2 class="direction__title">Направления</h2>
-    <p>Мы не продаем туры и ничего не рекламируем. Люди сами пишут о странах, куда хотели бы отправиться и чем можно там заняться.</p>
+    <p>Мы не продаем туры и ничего не рекламируем. Люди сами пишут о странах, куда хотели бы отправиться и чем можно там
+      заняться.</p>
     <ul class="direction__list country-list">
       <li class="country-list__item">
-        <img class="country-list__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="Tаиланд">
-        <h3 class="country-list__country country__thailand">Таиланд</h3>
+        <img class="country-list__img" src="https://via.placeholder.com/" width="40" height="40" alt="Tаиланд">
+        <h3 class="country-list__country country-list__country--thailand">Таиланд</h3>
         <b class="country-list__quantity">18321</b>
         <b class="country-list__tagline">Джунгли зовут!</b>
       </li>
       <li class="direction__item country-list">
-        <img class="country-list__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="Фраанция">
-        <h3 class="country-list__country country__france">Франция</h3>
+        <img class="country-list__img" src="https://via.placeholder.com/" width="40" height="40" alt="Фраанция">
+        <h3 class="country-list__country country-list__country--france">Франция</h3>
         <b class="country-list__quantity">18321</b>
         <b class="country-list__tagline">Трэ бьен, манифик!</b>
       </li>
       <li class="direction__item country-list">
-        <img class="country-list__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="Чехия">
-        <h3 class="country-list__country country__czech">Чехия</h3>
+        <img class="country-list__img" src="https://via.placeholder.com/" width="40" height="40" alt="Чехия">
+        <h3 class="country-list__country country-list__country--czech">Чехия</h3>
         <b class="country-list__quantity">18321</b>
         <b class="country-list__tagline">Закоулки старой Европы</b>
       </li>
@@ -92,24 +95,25 @@
   <section class="user-cards">
     <div class="travelers">
       <h2 class="travelers__title">Попутчики</h2>
-      <p>Все мы индивидуальны и у каждого свой взгляд на идеальный отдых. Одному нужен пляж и коктейль, а другому маршрут для хайкинга.</p>
+      <p class="travelers__text">Все мы индивидуальны и у каждого свой взгляд на идеальный отдых. Одному нужен пляж и
+        коктейль, а другому маршрут для хайкинга.</p>
       <b class="travelers__tagline">Теперь можно легко найти единомышленников!</b>
     </div>
 
     <div class="user-card">
-      <img class="user-card__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="Таня Фирсова">
+      <img class="user-card__img" src="https://via.placeholder.com/" width="40" height="40" alt="Таня Фирсова">
       <span class="user-card__level-img" aria-label="уровень">99 level</span>
-      <div class="user-card_wrapper">
+      <div class="user-card__wrapper">
         <h4 class="visually-hidden">хочет посетить:</h4>
-        <ul class="wishlist__list">
+        <ul class="wishlist">
           <li class="wishlist__item">
-            <img class="wishlist__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="флаг США">
+            <img class="wishlist__img" src="https://via.placeholder.com/" width="40" height="40" alt="флаг США">
           </li>
           <li class="wishlist__item">
-            <img class="wishlist__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="флаг Австралии">
+            <img class="wishlist__img" src="https://via.placeholder.com/" width="40" height="40" alt="флаг Австралии">
           </li>
           <li class="wishlist__item">
-            <img class="wishlist__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="флаг Доминиканы">
+            <img class="wishlist__img" src="https://via.placeholder.com/" width="40" height="40" alt="флаг Доминиканы">
           </li>
         </ul>
       </div>
@@ -117,63 +121,71 @@
       <p class="user-card__hash-tag">#ЗОЖ #ПП #Фитнес #пляж #авокадо #смузи</p>
       <div class="user-card_wrapper">
         <h4 class="user-card__transport">транспорт:</h4>
-        <ul class="transport__list">
-          <li class="transport__list">
-            <img class="transport__img transport__img--plane transport__img--plane--active" src="https://via.placeholder.com/" width="40px" height="40px" alt="самолет">
+        <ul class="transport-list">
+          <li class="transport-list__item">
+            <img class="transport-list__img transport-list__img--plane transport__img--plane--active"
+                 src="https://via.placeholder.com/" width="40" height="40" alt="самолет">
           </li>
-          <li class="transport__list">
-            <img class="transport__img transport__img--bus" src="https://via.placeholder.com/" width="40px" height="40px" alt="автобус">
+          <li class="transport-list__item">
+            <img class="transport-list__img transport-list__img--bus" src="https://via.placeholder.com/" width="40"
+                 height="40" alt="автобус">
           </li>
-          <li class="transport__list">
-            <img class="transport__img transport__img--bicycle transport__img--bicycle--active" src="https://via.placeholder.com/" width="40px" height="40px" alt="велосипед">
+          <li class="transport-list__item">
+            <img class="transport-list__img transport-list__img--bicycle transport__img--bicycle--active"
+                 src="https://via.placeholder.com/" width="40" height="40" alt="велосипед">
           </li>
-          <li class="transport__list">
-            <img class="transport__img transport__img--on-foot" src="https://via.placeholder.com/" width="40px" height="40px" alt="пешком">
+          <li class="transport-list__item">
+            <img class="transport-list__img transport-list__img--on-foot" src="https://via.placeholder.com/" width="40"
+                 height="40" alt="пешком">
           </li>
         </ul>
       </div>
     </div>
 
     <div class="user-card">
-      <img class="user-card__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="Петя Демин">
+      <img class="user-card__img" src="https://via.placeholder.com/" width="40" height="40" alt="Петя Демин">
       <span class="user-card__level-img" aria-label="уровень">80 level</span>
       <div class="user-card_wrapper">
         <h4 class="visually-hidden">хочет посетить:</h4>
-        <ul class="wishlist__list">
+        <ul class="wishlist">
           <li class="wishlist__item">
-            <img class="wishlist__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="флаг Бельгии">
+            <img class="wishlist__img" src="https://via.placeholder.com/" width="40" height="40" alt="флаг Бельгии">
           </li>
           <li class="wishlist__item">
-            <img class="wishlist__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="флаг Чехии">
+            <img class="wishlist__img" src="https://via.placeholder.com/" width="40" height="40" alt="флаг Чехии">
           </li>
         </ul>
       </div>
       <h3 class="user-card__name">Петя Демин</h3>
       <p class="user-card__hash-tag">#бургер #бар #футбол #концерт #крафт</p>
-      <div class="user-card_wrapper">
+      <div class="user-card__wrapper">
         <h4 class="user-card__transport">транспорт:</h4>
-        <ul class="transport__list">
-          <li class="transport__list">
-            <img class="transport__img transport__img--plane transport__img--plane--active" src="https://via.placeholder.com/" width="40px" height="40px" alt="самолет">
+        <ul class="transport-list">
+          <li class="transport-list__item">
+            <img class="transport-list__img transport-list__img--plane transport__img--plane--active"
+                 src="https://via.placeholder.com/" width="40" height="40" alt="самолет">
           </li>
-          <li class="transport__list">
-            <img class="transport__img transport__img--bus transport__img--bus--active" src="https://via.placeholder.com/" width="40px" height="40px" alt="автобус">
+          <li class="transport-list__item">
+            <img class="transport-list__img transport-list__img--bus transport__img--bus--active"
+                 src="https://via.placeholder.com/" width="40" height="40" alt="автобус">
           </li>
-          <li class="transport__list">
-            <img class="transport__img transport__img--bicycle" src="https://via.placeholder.com/" width="40px" height="40px" alt="велосипед">
+          <li class="transport-list__item">
+            <img class="transport-list__img transport-list__img--bicycle" src="https://via.placeholder.com/" width="40"
+                 height="40" alt="велосипед">
           </li>
-          <li class="transport__list">
-            <img class="transport__img transport__img--on-foot transport__img--on-foot--active" src="https://via.placeholder.com/" width="40px" height="40px" alt="пешком">
+          <li class="transport-list__item">
+            <img class="transport-list__img transport-list__img--on-foot transport__img--on-foot--active"
+                 src="https://via.placeholder.com/" width="40" height="40" alt="пешком">
           </li>
         </ul>
-        <a class="button travelers__button" href="#">Показать всех</a>
       </div>
     </div>
+    <a class="button user-cards__button" href="#">Показать всех</a>
   </section>
 
   <section class="rates">
-    <h2 class="rates__class">Добавьте свой профиль</h2>
-    <ul class="rates__list">
+    <h2 class="rates__title">Добавьте свой профиль</h2>
+    <ul class="rates-list">
       <li class="rates-list__item">
         <h4>Базовое размещение Бесплатно</h4>
         <span>1</span>
@@ -195,38 +207,38 @@
 
   /*Пропущены два красных блока*/
 
-  </main>
+</main>
 
-  <footer class="page-footer">
-    <a class="logo page-footer__logo">
-      <img class="logo__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="Логотип Погнали?">
+<footer class="page-footer">
+  <a class="logo logo--footer ">
+    <img class="logo__img" src="https://via.placeholder.com/" width="40" height="40" alt="Логотип Погнали?">
+  </a>
+  <div class="page-footer__social social">
+    <ul class="social__list">
+      <li class="social__item">
+        <a class="social__link social__link--facebook" href="https://www.facebook.com">
+          <img class="social__img" src="https://via.placeholder.com/" width="40" height="40" alt="Фейсбук">
+        </a>
+      </li>
+      <li class="social__item">
+        <a class="social__link social__link--vkontakte" href="https://vk.com">
+          <img class="social__img" src="https://via.placeholder.com/" width="40" height="40" alt="Вконтакте">
+        </a>
+      </li>
+      <li class="social__item">
+        <a class="social__link social__link--instagram" href="https://www.instagram.com">
+          <img class="social__img" src="https://via.placeholder.com/" width="40" height="40" alt="Инстаграмм">
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="page-footer__copyright copyright">
+    <b class="copyright__text">Разработано:</b>
+    <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
+      <img class="copyright__img" src="https://via.placeholder.com/" width="40" height="40" alt="Сайт HTML Academy">
     </a>
-    <div class="page-footer__social social">
-      <ul class="social__list">
-        <li class="social__item">
-          <a class="social__link social__link--facebook" href="https://www.facebook.com">
-            <img class="social__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="Фейсбук">
-          </a>
-        </li>
-        <li class="social__item">
-          <a class="social__link social__link--vkontakte" href="https://vk.com">
-            <img class="social__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="Вконтакте">
-          </a>
-        </li>
-        <li class="social__item">
-          <a class="social__link social__link--instagram" href="https://www.instagram.com">
-            <img class="social__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="Инстаграмм">
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div class="page-footer__copyright copyright">
-      <b class="copyright__text">Разработано:</b>
-      <a class="copyright__link" href="https://htmlacademy.ru">
-        <img class="copyright__img" src="https://via.placeholder.com/" width="40px" height="40px" alt="Сайт HTML Academy">
-      </a>
-    </div>
-  </footer>
+  </div>
+</footer>
 </body>
 </html>
 
