@@ -129,7 +129,7 @@
     <a class="button direction__button" href="#">Показать все</a>
   </section>
 
-  <section class="user-cards">
+  <section class="site-users">
     <div class="travelers">
       <h2 class="travelers__title">Попутчики</h2>
       <p class="travelers__text">Все мы индивидуальны и у каждого свой взгляд на идеальный отдых. Одному нужен пляж и
@@ -137,103 +137,160 @@
       <b class="travelers__tagline">Теперь можно легко найти единомышленников!</b>
     </div>
 
-    <div class="user-card">
-      <img class="user-card__img" src="https://via.placeholder.com/" width="40" height="40" alt="Таня Фирсова">
-      <span class="user-card__level-img" aria-label="уровень">99 level</span>
-      <div class="user-card__wrapper">
-        <h4 class="visually-hidden">хочет посетить:</h4>
-        <ul class="user-card__list">
-          <li class="user-card__item">
-            <img class="user-card__list-img" src="https://via.placeholder.com/" width="40" height="40" alt="флаг США">
-            <span class="visually-hidden">флаг США</span>
+    <div class="user-card user-card--main">
+      <h2 class="visually-hidden">Карточка пользователя</h2>
+      <img class="user-card__avatar user-card__avatar--main" src="https://via.placeholder.com/" width="140" height="140"
+           alt="Аватарка">
+      <!--Будет скрыто стилями
+            <ul class="user-radio">
+              <li class="user-radio__like user-radio--off">
+                <label for="like-Tanya">
+                  <input type="radio" name="like" class="user-radio__input" value="like"
+                         id="like-Tanya" checked>
+                  <span class="radio-box"></span>
+                </label>
+              </li>
+            </ul>
+            -->
+      <h3 class="card__name card__name--main">Таня Фирсова</h3>
+      <span class="card__status card__status--main" aria-label="онлайн статус"></span>
+      <!--Будет скрыто стилями
+      <span class="card__remoteness" aria-label="Удаленность">1,5 м</span>
+      -->
+      <p class="card__hash-tag">#ЗОЖ #ПП #Фитнес #пляж #авокадо #смузи</p>
+      <div class="card__wrapper">
+        <!--Будет скрыто стилями
+        <h4 class="card__title">хочет посетить:</h4>
+        -->
+        <ul class="card__list card__list--main">
+          <li class="card__item card__item--main">
+            <span>Шри-ланка</span>
           </li>
-          <li class="user-card__item">
-            <img class="user-card__list-img" src="https://via.placeholder.com/" width="40" height="40"
-                 alt="флаг Австралии">
-            <span class="visually-hidden">флаг Австралии</span>
+          <li class="card__item card__item--main">
+            <span>Тайланд</span>
           </li>
-          <li class="user-card__item">
-            <img class="user-card__list-img" src="https://via.placeholder.com/" width="40" height="40"
-                 alt="флаг Доминиканы">
-            <span class="visually-hidden">флаг Доминиканы</span>
+          <li class="card__item card__item--main">
+            <span>Сейшелы</span>
           </li>
         </ul>
       </div>
-      <h3 class="user-card__name">Таня Фирсова</h3>
-      <p class="user-card__hash-tag">#ЗОЖ #ПП #Фитнес #пляж #авокадо #смузи</p>
-      <div class="user-card_wrapper">
-        <h4 class="user-card__transport">транспорт:</h4>
-        <ul class="transport-list">
-          <li class="transport-list__item">
+      <div class="card__wrapper card__wrapper--main">
+        <!--Будет скрыто стилями
+        <h4 class="card__transport">транспорт:</h4>
+        -->
+        <ul class="transport-list transport-list--main">
+          <li class="transport-list__item transport-list__item--main">
             <img class="transport-list__img transport-list__img--plane transport__img--plane--active"
                  src="https://via.placeholder.com/" width="40" height="40" alt="самолет">
             <span class="visually-hidden">Самолет</span>
           </li>
-          <li class="transport-list__item">
+          <li class="transport-list__item transport-list__item--main">
             <img class="transport-list__img transport-list__img--bus" src="https://via.placeholder.com/" width="40"
                  height="40" alt="автобус">
             <span class="visually-hidden">Автобус</span>
           </li>
-          <li class="transport-list__item">
+          <li class="transport-list__item transport-list__item--main">
             <img class="transport-list__img transport-list__img--bicycle transport__img--bicycle--active"
                  src="https://via.placeholder.com/" width="40" height="40" alt="велосипед">
             <span class="visually-hidden">Велосипед</span>
           </li>
-          <li class="transport-list__item">
+          <li class="transport-list__item transport-list__item--main">
             <img class="transport-list__img transport-list__img--on-foot" src="https://via.placeholder.com/" width="40"
                  height="40" alt="пешком">
             <span class="visually-hidden">Пешком</span>
           </li>
         </ul>
       </div>
+      <div class="card__wrapper card__wrapper--main">
+        <!--Будет скрыто стилями
+        <h4 class="card__subtitle card__subtitle--main">левел:</h4>
+        -->
+        <div class="level">
+          <div class="level__count">99</div>
+          <span class="level__text">level</span>
+        </div>
+      </div>
+      <!--Будет скрыто стилями
+      <a class="button card__button" href="#">Позвать!</a>
+      -->
     </div>
 
-    <div class="user-card">
-      <img class="user-card__img" src="https://via.placeholder.com/" width="40" height="40" alt="Петя Демин">
-      <span class="user-card__level-img" aria-label="уровень">80 level</span>
-      <div class="user-card_wrapper">
-        <h4 class="visually-hidden">хочет посетить:</h4>
-        <ul class="user-card__list">
-          <li class="user-card__item">
-            <img class="user-card__list-img" src="https://via.placeholder.com/" width="40" height="40"
-                 alt="флаг Бельгии">
-            <span class="visually-hidden">Флаг Бельгии</span>
+    <div class="card card--main">
+      <h2 class="visually-hidden">Карточка пользователя</h2>
+      <img class="card__avatar card__avatar--main" src="https://via.placeholder.com/" width="40" height="40"
+           alt="Аватарка">
+      <!--Будет скрыто стилями
+      <ul class="user-radio">
+        <li class="user-radio__like user-radio--on user-radio--off">
+          <label for="like-Petr">
+            <input type="radio" name="like" class="user-radio__input" value="like"
+                   id="like-Petr">
+            <span class="radio-box"></span>
+          </label>
+        </li>
+      </ul>
+      -->
+      <h3 class="card__name card__name--main">Петя Демин</h3>
+      <span class="card__status card__status--main" aria-label="онлайн статус"></span>
+      <!--Будет скрыто стилями
+      <span class="card__remoteness" aria-label="Удаленность">1500</span>
+      -->
+      <p class="card__hash-tag card__hash-tag--main">#бургер #бар #футбол #концерт #крафт</p>
+      <div class="card__wrapper card__wrapper--main">
+        <!--Будет скрыто стилями
+        <h4 class="card__title">хочет посетить:</h4>
+        -->
+        <ul class="card__list card__list--main">
+          <li class="card__item card__item--main">
+            <span>Бельгия</span>
           </li>
-          <li class="user-card__item">
-            <img class="user-card__list-img" src="https://via.placeholder.com/" width="40" height="40" alt="флаг Чехии">
-            <span class="visually-hidden">флаг Чехии</span>
+          <li class="card__item card__item--main">
+            <span>Чехия</span>
           </li>
         </ul>
       </div>
-      <h3 class="user-card__name">Петя Демин</h3>
-      <p class="user-card__hash-tag">#бургер #бар #футбол #концерт #крафт</p>
-      <div class="user-card__wrapper">
-        <h4 class="user-card__transport">транспорт:</h4>
-        <ul class="transport-list">
-          <li class="transport-list__item">
+      <div class="card_wrapper card_wrapper--main">
+        <!--Будет скрыто стилями
+        <h4 class="card__transport">транспорт:</h4>
+        -->
+        <ul class="transport-list transport-list--main">
+          <li class="transport-list__item transport-list__item--main">
             <img class="transport-list__img transport-list__img--plane transport__img--plane--active"
                  src="https://via.placeholder.com/" width="40" height="40" alt="самолет">
             <span class="visually-hidden">Самолет</span>
           </li>
-          <li class="transport-list__item">
+          <li class="transport-list__item transport-list__item--main">
             <img class="transport-list__img transport-list__img--bus" src="https://via.placeholder.com/" width="40"
                  height="40" alt="автобус">
             <span class="visually-hidden">Автобус</span>
           </li>
-          <li class="transport-list__item">
+          <li class="transport-list__item transport-list__item--main">
             <img class="transport-list__img transport-list__img--bicycle transport__img--bicycle--active"
                  src="https://via.placeholder.com/" width="40" height="40" alt="велосипед">
             <span class="visually-hidden">Велосипед</span>
           </li>
-          <li class="transport-list__item">
+          <li class="transport-list__item transport-list__item--main">
             <img class="transport-list__img transport-list__img--on-foot" src="https://via.placeholder.com/" width="40"
                  height="40" alt="пешком">
             <span class="visually-hidden">Пешком</span>
           </li>
         </ul>
       </div>
+      <div class="card__wrapper card__wrapper--main">
+        <!--Будет скрыто стилями
+        <h4 class="card__subtitle card__subtitle--main">левел:</h4>
+        -->
+        <div class="level">
+          <div class="level__count">80</div>
+          <span class="level__text">level</span>
+        </div>
+      </div>
+      <!--Будет скрыто стилями
+      <a class="button card__button" href="#">Позвать!</a>
+      -->
     </div>
-    <a class="button user-cards__button" href="#">Показать всех</a>
+
+    <a class="button site-users__button" href="#">Показать всех</a>
   </section>
 
   <section class="rates">
