@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Погнали - главная страница</title>
+</head>
+
+<body class="page">
+<header class="header">
+  <a class="header__logo logo">
+    <img class="logo__img" src="https://via.placeholder.com/" width="40" height="40" alt="Логотип Погнали?">
+    <span class="visually-hidden">Логотип Погнали?</span>
+  </a>
+  <button class="header__toggle" type="button">
+    <img class="header__toggle-img" src="https://via.placeholder.com/" width="40" height="40"
+         alt="Открыть или закрыть меню">
+    <span class="visually-hidden">Открыть или закрыть меню</span>
+  </button>
+
+  <section class="menu-nav">
+    <ul class="menu-nav__list site-nav">
+      <li class="site-nav__item">
+        <a class="site-nav__link">О сервисе</a>
+      </li>
+      <li class="site-nav__item">
+        <a class="site-nav__link" href="form.html">Направления</a>
+      </li>
+      <li class="site-nav__item">
+        <a class="site-nav__link" href="catalog.html">Попутчики</a>
+      </li>
+    </ul>
+    <ul class="menu-nav__list user-nav">
+      <li class="user-nav__item">
+        <a class="button user-nav__btn js-login" href="#">Авторизация</a>
+      </li>
+      <li class="user-nav__item">
+        <a class="user-nav__tel" href="tel:+749511111111">
+          <img class="user-nav__tel-img" src="https://via.placeholder.com/" width="40" height="40"
+               alt="Наш телефон">
+          <span class="visually-hidden">Телефон +749511111111</span>
+        </a>
+      </li>
+      <li class="user-nav__item">
+        <a class="user-nav__mail" href="mailto:go@gmail.com">
+          <img class="user-nav__mail-img" src="https://via.placeholder.com/" width="40" height="40"
+               alt="Наша электронная почта">
+          <span class="visually-hidden">Электронный адрес go@gmail.com</span>
+        </a>
+      </li>
+    </ul>
+  </section>
+</header>
+
+<main>
+  <section class="main-nav">
+    <h1 class="main-nav__title">В путешествие с крутыми попутчиками!</h1>
+    <nav class="user-nav">
+      <ul class="user-nav__list">
+        <li class="user-nav__item">
+          <a class="button user-nav__btn js-login" href="#">Авторизация</a>
+        </li>
+        <li class="user-nav__item">
+          <a class="user-nav__tel" href="tel:+749511111111" aria-label="Телефон +749511111111">
+            <img class="user-nav__tel-img" src="https://via.placeholder.com/" width="40" height="40"
+                 alt="Наш телефон">
+            <span class="visually-hidden">Наш телефон</span>
+          </a>
+        </li>
+        <li class="user-nav__item">
+          <a class="user-nav__list__mail" href="mailto:go@gmail.com" aria-label="Электронный адрес go@gmail.com">
+            <img class="user-nav__mail-img" src="https://via.placeholder.com/" width="40" height="40"
+                 alt="Наша электронная почта">
+            <span class="visually-hidden">Наша электронная почта</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </section>
+  <section class="blockquote">
+    <h2 class="visually-hidden">Отзывы</h2>
+    <blockquote class="blockquote__review">
+      <p class="blockquote__text">«Лучшее приложение, что я видел в жизни!»</p>
+      <cite class="blockquote__author">Мурат Эльтазин главный редактор газеты «гаджетлайф»</cite>
+    </blockquote>
+  </section>
+
+  <section class="sequencing">
+    <h2 class="visually-hidden">Последовательность действий</h2>
+    <ol class="sequencing__list">
+      <li class="sequencing__item">Выберите направление</li>
+      <li class="sequencing__item">Изучите идеи<br>путешественников</li>
+      <li class="sequencing__item">Находите тех,<br>кто похож на вас</li>
+      <li class="sequencing__item">Путешествуйте<br>вместе!</li>
+    </ol>
+  </section>
+
+  <section class="about-service">
+    <h2 class="about-service__title">О сервисе</h2>
+    <p class="about-service__text">Любое путешествие веселее с попутчиками, которые на одной волне с тобой! Делитесь
+      своими идеями путешествий и черпайте вдохновение в чужих.</p>
+    <p class="about-service__text">А если найдете кого-то близкого по духу — скорее зовите в совместный трип!</p>
+  </section>
+
+  <section class="direction">
+    <h2 class="direction__title">Направления</h2>
+    <p>Мы не продаем туры и ничего не рекламируем. Люди сами пишут о странах, куда хотели бы отправиться и чем можно там
+      заняться.</p>
+    <ul class="direction__list">
+      <li class="direction__item">
+        <img class="direction__img" src="https://via.placeholder.com/" width="40" height="40" alt="Tаиланд">
+        <h3 class="direction__country direction__country--thailand">Таиланд</h3>
+        <b class="direction__quantity">18321</b>
+        <b class="direction__tagline">Джунгли зовут!</b>
+      </li>
+      <li class="direction__item">
+        <img class="direction__img" src="https://via.placeholder.com/" width="40" height="40" alt="Фраанция">
+        <h3 class="direction__country direction__country--france">Франция</h3>
+        <b class="direction__quantity">18321</b>
+        <b class="direction__tagline">Трэ бьен, манифик!</b>
+      </li>
+      <li class="direction__item">
+        <img class="direction__img" src="https://via.placeholder.com/" width="40" height="40" alt="Чехия">
+        <h3 class="direction__country direction__country--czech">Чехия</h3>
+        <b class="direction__quantity">18321</b>
+        <b class="direction__tagline">Закоулки старой Европы</b>
+      </li>
+    </ul>
+    <a class="button direction__btn" href="#">Показать все</a>
+  </section>
+
+  <section class="site-users">
+    <div class="travelers">
+      <h2 class="travelers__title">Попутчики</h2>
+      <p class="travelers__text">Все мы индивидуальны и у каждого свой взгляд на идеальный отдых. Одному нужен пляж и
+        коктейль, а другому маршрут для хайкинга.</p>
+      <b class="travelers__tagline">Теперь можно легко найти единомышленников!</b>
+    </div>
+
+    <div class="card card--big-avatar">
+      <h2 class="visually-hidden">Карточка пользователя</h2>
+      <img class="card__avatar card__avatar--big" src="https://via.placeholder.com/" width="140" height="140"
+           alt="Аватарка">
+      <h3 class="card__name card__name">Таня Фирсова</h3>
+      <span class="card__status" aria-label="онлайн статус"></span>
+      <p class="card__hash-tag">#ЗОЖ #ПП #Фитнес #пляж #авокадо #смузи</p>
+      <div class="card__wrapper">
+        <!--Будет скрыто стилями
+        <h4 class="card__title">хочет посетить:</h4>
+        -->
+        <ul class="card__list">
+          <li class="card__item">
+            <span>Шри-ланка</span>
+          </li>
+          <li class="card__item">
+            <span>Тайланд</span>
+          </li>
+          <li class="card__item">
+            <span>Сейшелы</span>
+          </li>
+        </ul>
+      </div>
+      <div class="card__wrapper">
+        <!--Будет скрыто стилями
+        <h4 class="card__transport">транспорт:</h4>
+        -->
+        <ul class="transport-list transport-list--left">
+          <li class="transport-list__item">
+            <img class="transport-list__img transport-list__img--plane transport-list__img--active"
+                 src="https://via.placeholder.com/" width="40" height="40" alt="самолет">
+            <span class="visually-hidden">Самолет</span>
+          </li>
+          <li class="transport-list__item">
+            <img class="transport-list__img transport-list__img--bus" src="https://via.placeholder.com/" width="40"
+                 height="40" alt="автобус">
+            <span class="visually-hidden">Автобус</span>
+          </li>
+          <li class="transport-list__item">
+            <img class="transport-list__img transport-list__img--bicycle transport-list__img--active"
+                 src="https://via.placeholder.com/" width="40" height="40" alt="велосипед">
+            <span class="visually-hidden">Велосипед</span>
+          </li>
+          <li class="transport-list__item">
+            <img class="transport-list__img transport-list__img--on-foot" src="https://via.placeholder.com/" width="40"
+                 height="40" alt="пешком">
+            <span class="visually-hidden">Пешком</span>
+          </li>
+        </ul>
+      </div>
+      <div class="card__wrapper">
+        <!--Будет скрыто стилями
+        <h4 class="card__subtitle">левел:</h4>
+        -->
+        <div class="level">
+          <div class="level__count">99</div>
+          <span class="level__text">level</span>
+        </div>
+      </div>
+      <!--Будет скрыто стилями
+      <a class="button card__btn" href="#">Позвать!</a>
+      -->
+    </div>
+
+    <div class="card card--big-avatar">
+      <h2 class="visually-hidden">Карточка пользователя</h2>
+      <img class="card__avatar card__avatar--big" src="https://via.placeholder.com/" width="40" height="40"
+           alt="Аватарка">
+      <h3 class="card__name">Петя Демин</h3>
+      <span class="card__status" aria-label="онлайн статус"></span>
+      <p class="card__hash-tag">#бургер #бар #футбол #концерт #крафт</p>
+      <div class="card__wrapper">
+        <!--Будет скрыто стилями
+        <h4 class="card__title">хочет посетить:</h4>
+        -->
+        <ul class="card__list">
+          <li class="card__item">
+            <span>Бельгия</span>
+          </li>
+          <li class="card__item">
+            <span>Чехия</span>
+          </li>
+        </ul>
+      </div>
+      <div class="card_wrapper">
+        <!--Будет скрыто стилями
+        <h4 class="card__transport">транспорт:</h4>
+        -->
+        <ul class="transport-list transport-list--left">
+          <li class="transport-list__item">
+            <img class="transport-list__img transport-list__img--plane transport-list__img--active"
+                 src="https://via.placeholder.com/" width="40" height="40" alt="самолет">
+            <span class="visually-hidden">Самолет</span>
+          </li>
+          <li class="transport-list__item">
+            <img class="transport-list__img transport-list__img--bus" src="https://via.placeholder.com/" width="40"
+                 height="40" alt="автобус">
+            <span class="visually-hidden">Автобус</span>
+          </li>
+          <li class="transport-list__item">
+            <img class="transport-list__img transport-list__img--bicycle transport-list--active"
+                 src="https://via.placeholder.com/" width="40" height="40" alt="велосипед">
+            <span class="visually-hidden">Велосипед</span>
+          </li>
+          <li class="transport-list__item">
+            <img class="transport-list__img transport-list__img--on-foot" src="https://via.placeholder.com/" width="40"
+                 height="40" alt="пешком">
+            <span class="visually-hidden">Пешком</span>
+          </li>
+        </ul>
+      </div>
+      <div class="card__wrapper">
+        <!--Будет скрыто стилями
+        <h4 class="card__subtitle">левел:</h4>
+        -->
+        <div class="level">
+          <div class="level__count">80</div>
+          <span class="level__text">level</span>
+        </div>
+      </div>
+      <!--Будет скрыто стилями
+      <a class="button card__btn" href="#">Позвать!</a>
+      -->
+    </div>
+
+    <a class="button cards__btn" href="#">Показать всех</a>
+  </section>
+
+  <section class="rates">
+    <h2 class="rates__title">Добавьте свой профиль</h2>
+    <ol class="rates-list">
+      <li class="rates-list__item">
+        <h4>Базовое размещение Бесплатно</h4>
+        <span>Бесплатно</span>
+      </li>
+      <li class="rates-list__item">
+        <h4>Вывод на первых позициях</h4>
+        <span>99 руб./мес</span>
+      </li>
+      <li class="rates-list__item">
+        <h4>Кастомный цвет карточки</h4>
+        <span>59 руб./мес</span>
+      </li>
+    </ol>
+    <a class="rates__link" href="#">Показать тарифы для бизнеса</a>
+  </section>
+
+  /*Пропущены два красных блока*/
+
+</main>
+
+<footer class="footer">
+  <a class="footer__logo logo">
+    <img class="logo__img" src="https://via.placeholder.com/" width="40" height="40" alt="Логотип Погнали?">
+    <span class="visually-hidden">Логотип Погнали?</span>
+  </a>
+  <div class="footer__social social">
+    <ul class="social__list">
+      <li class="social__item">
+        <a class="social__link social__link--fb" href="https://www.facebook.com">
+          <img class="social__img" src="https://via.placeholder.com/" width="40" height="40" alt="Фейсбук">
+          <span class="visually-hidden">Фейсбук</span>
+        </a>
+      </li>
+      <li class="social__item">
+        <a class="social__link social__link--vk" href="https://vk.com">
+          <img class="social__img" src="https://via.placeholder.com/" width="40" height="40" alt="Вконтакте">
+          <span class="visually-hidden">Вконтакте</span>
+        </a>
+      </li>
+      <li class="social__item">
+        <a class="social__link social__link--inst" href="https://www.instagram.com">
+          <img class="social__img" src="https://via.placeholder.com/" width="40" height="40" alt="Инстаграмм">
+          <span class="visually-hidden">Инстаграмм</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="footer__copyright copyright">
+    <b class="copyright__text">Разработано:</b>
+    <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
+      <img class="copyright__img" src="https://via.placeholder.com/" width="40" height="40" alt="Сайт HTML Academy">
+      <span class="visually-hidden">Сайт HTML Academy</span>
+    </a>
+  </div>
+</footer>
+</body>
+</html>
+
